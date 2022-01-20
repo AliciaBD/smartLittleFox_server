@@ -1,0 +1,30 @@
+{
+  "name": "smartlittlefox-server",
+  "version": "1.0.0",
+  "description": "educational app api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliciaBD/smartlittlefox-server.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Alicia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliciaBD/smartlittlefox-server/issues"
+  },
+  "homepage": "https://github.com/AliciaBD/smartlittlefox-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "translate": "^1.4.1"
+  }
+}
