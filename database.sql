@@ -26,4 +26,6 @@ DELIMITER ';'
 CSV HEADER;
 
 
-psql -h ec2-3-225-41-234.compute-1.amazonaws.com -U rycbyjhutxvyea dbu31vno4jav2c -c "\copy lessons (lesson_id, lesson_title, area, thumbnail) FROM 'D:\ALICIA (D)\ACADEMIC\Web development\Javascript\Nodejs\smartlittlefox-server\csv_files\lessons.csv' with (format csv, header true, delimiter ';');"
+-- on command prompt:
+-- psql -h ec2-3-225-41-234.compute-1.amazonaws.com -U rycbyjhutxvyea dbu31vno4jav2c
+-- psw:63518d2b8051cd16c84cc17c0a40015951057626955eae76998c91d9a372feea
