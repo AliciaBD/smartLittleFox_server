@@ -24,3 +24,6 @@ COPY vocabulary (word, lesson_id)
 FROM 'D:\ALICIA (D)\ACADEMIC\Web development\Javascript\Nodejs\smartlittlefox-server\csv_files\vocabulary.csv'
 DELIMITER ';'
 CSV HEADER;
+
+
+psql -h ec2-3-225-41-234.compute-1.amazonaws.com -U rycbyjhutxvyea dbu31vno4jav2c -c "\copy lessons (lesson_id, lesson_title, area, thumbnail) FROM 'D:\ALICIA (D)\ACADEMIC\Web development\Javascript\Nodejs\smartlittlefox-server\csv_files\lessons.csv' with (format csv, header true, delimiter ';');"
