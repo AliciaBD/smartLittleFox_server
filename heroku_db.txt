@@ -1,7 +1,0 @@
-Heroku db credentials
-
-PG_HOST = ec2-3-225-41-234.compute-1.amazonaws.com
-PG_PORT = 5432
-PG_USER = rycbyjhutxvyea
-PG_PASSWORD = 63518d2b8051cd16c84cc17c0a40015951057626955eae76998c91d9a372feea
-PG_DATABASE = dbu31vno4jav2c
