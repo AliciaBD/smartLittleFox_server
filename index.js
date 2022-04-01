@@ -19,7 +19,6 @@ app.get("/lessons", async (req, res) => {
   }
 });
 
-// app.get("/lessons/:lesson_title/:lesson_id", async (req, res) => {
 app.get("/lessons/:lesson_id", async (req, res) => {
   const lesson_id = req.params.lesson_id;
   try {
@@ -42,20 +41,6 @@ app.get("*", async (req, res) => {
     console.error(err.message);
   }
 });
-
-// app.get("/lessons/vocabulary/:lessonTitle", async (req, res) => {
-//   const lesson_title = utils.format(req.params.lessonTitle);
-//   try {
-//     const data = await db.query(
-//       "SELECT id, word, topic, lesson_title, description, images FROM vocabulary WHERE lesson_title=$1",
-//       [lesson_title]
-//     );
-//     // const newData = await addTranslation(data.rows);
-//     // res.json(newData);
-//   } catch (err) {
-//     console.error(err.message);
-//   }
-// });
 
 app.listen(port, (err) => {
   if (err) return console.error("error in connection", err.stack);
