@@ -3,4 +3,4 @@
 Api for Smart Little Fox app
 
 # technologies
-Node Js, Express, Cors, Postgres, 
+Node Js, Express, Cors, Postgres, translate
