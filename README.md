@@ -1,5 +1,6 @@
-# Educational web-app
+# Smart Little Fox api
 
-Api from interactive site --- to learn and play with basic academic contents.
+Api for Smart Little Fox app
 
-Author: Alicia Burga
+# technologies
+Node Js, Express, Cors, Postgres, 
