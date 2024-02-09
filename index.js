@@ -14,8 +14,11 @@ app.use(cors());
 
 app.get("/lessons", async (req, res) => {
   try {
-    const data = await db.query("SELECT * FROM lessons");
-    res.json(data.rows);
+    // const data = await db.query("SELECT * FROM lessons");
+    // res.json(data.rows);
+
+    const data = await db.query("SELECT NOW()");
+    res.json(data.rows[0]);
   } catch (err) {
     console.error(err.message);
   }
